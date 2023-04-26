@@ -336,9 +336,184 @@ footer .izq {
 
 /* --- PRODUCTOS --- */
 
+/* --------------------------------- BENEFICIOS --------------------------------------- */
+.encabezado {
+  padding: 50px;
+  text-align: center;
+  font-style: italic;
+}
 
-/* --- BENEFICIOS --- */
+.Titulo2 {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #8abf9c80;
+  padding: 30px 30px;
+  display: center;
+  justify-content: center;
+}
+.Titulo2 p {
+  text-align: center;
+  padding: 10px 0;
+  padding: 30px 30px;
+  display: center;
+  justify-content: center;
+}
 
+.Titulo2 h2 {
+    color: #5dab81;
+}
+
+.Titulo3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+ }
+.Titulo3 h2 {
+  padding: 10px;
+    text-align: center;
+  color: #5dab81;
+}
+.Titulo3 p{
+  padding: 10px;
+  text-align: center;
+}
+
+.content-casos {
+  text-align: center;
+  padding: 50px 0;
+  display: flex;
+  width: 100%;
+  flex-wrap:wrap;
+  background-color: #8abf9c80;
+  justify-content: space-between ;
+}
+.box-caso1{
+  width:30%;
+  overflow:hidden;
+  align-content: center;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.box-caso1 h4 {
+  padding-top: 20px;
+}
+.box-caso1 p {
+  padding-top: 20px;
+}
+.box-caso1 iframe {
+  Width: 50%;
+  height: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.box-caso2{
+  width:30%;
+  overflow:hidden;
+  align-content: center;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.box-caso2 h4 {
+  padding-top: 20px;
+}
+.box-caso2 p {
+  padding-top: 20px;
+}
+.box-caso2 iframe {
+  Width: 50%;
+  height: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.box-caso3{
+  width:30%;
+  overflow:hidden;
+  align-content: center;
+  transition:0.3s ease-in-out ;
+  box-shadow: 5px 8px 12px black ;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.box-caso3 h4 {
+  padding-top: 20px;
+}
+.box-caso3 p {
+  padding-top: 20px;
+}
+.box-caso3 iframe {
+  Width: 50%;
+  height: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.imagenes{
+  display:flex;
+  width: 900;
+  height: 450;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  background-color: #8abf9c80;
+ 
+}
+
+.imagenes img{
+  width:0px;
+  flex-grow:1.5;
+  object-fit: cover;
+  opacity:.8;
+  transition: .5s ease;
+  border-radius: 20px;
+  border: 2px dashed gray;
+}
+.imagenes img:hover{
+cursor: crosshair;
+width:200px;
+opacity:1;
+filter: contrast(100%);
+}
+
+.Titulo4 {
+  padding: 30px;
+  text-align: center;
+  font-style: italic;
+}
+
+.Titulo4 p {
+  padding: 10px;
+}
+
+.info a {
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+  background-color: #8abf9c80;
+}
+
+.Titulo4 h4 {
+  padding: 10px;
+}
+/* --------------------------------- BENEFICIOS --------------------------------------- */
 
 /* --- CONTACTO DAHILY---- */
 
